@@ -1,0 +1,47 @@
+.header {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+  }
+  
+  .nav {
+    margin-top: 1rem;
+  }
+  
+  .nav a {
+    margin: 0 1rem;
+  }
+}

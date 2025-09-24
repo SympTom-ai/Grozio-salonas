@@ -1,0 +1,35 @@
+.paslaugos {
+  padding: 50px 0;
+}
+
+.paslaugos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.paslauga-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.paslauga-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.kaina {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 0.5rem;
+}
+
+.trukme {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+}
