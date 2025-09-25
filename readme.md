@@ -45,6 +45,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Atsisiųsti kloną iš nuorodos: 
     ```sh
+    https://github.com/SympTom-ai/Grozio-salonas
         
     ```
 2. Client, Server ir pagrindinėje dalyje instaliuoti: 
