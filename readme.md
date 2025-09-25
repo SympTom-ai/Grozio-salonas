@@ -54,9 +54,7 @@ Would like to run this project locally? Open terminal and follow these steps:
     ```
 3. Client dalyje atskirai instaliuoti: 
     ```sh
-    npm create vite@latest .
-    tada pasirinkti: react 
-    tada pasirinkti: javascript
+    npm install vite@latest .
 
     papildomai instaliuoti: 
     npm i react-router
